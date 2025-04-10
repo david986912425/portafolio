@@ -1,111 +1,118 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <title>Portfolio David Esteban</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&amp;display=swap"
+            rel="stylesheet"
     />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/project.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css"/>
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  </head>
-  <body class="dark">
-    <div class="body-dark">
-      <section class="myInfo">
+</head>
+<body class="dark">
+<div class="body-dark">
+    <section class="myInfo">
         <h1 class="nameInfo">David Esteban Mamani Huiza</h1>
         <section class="redesSociales">
-          <a href="https://github.com/david986912425" target="_blank"><div class="icon-github"></div></a>
-          <a href="https://www.linkedin.com/in/david-mamani-huiza-6a2265184/"  target="_blank"><div class="icon-linkedin"></div></a>
+            <a href="https://github.com/david986912425" target="_blank">
+                <div class="icon-github"></div>
+            </a>
+            <a href="https://www.linkedin.com/in/david-mamani-huiza-6a2265184/" target="_blank">
+                <div class="icon-linkedin"></div>
+            </a>
         </section>
         <section class="correo">
-          <div class="containerCorreo">
-            <div class="emailContainer">
-              <div class="icon-email"></div>
+            <div class="containerCorreo">
+                <div class="emailContainer">
+                    <div class="icon-email"></div>
+                </div>
+                <div class="textEmail">
+                    <span>Email</span>
+                    <a href="#">dm7659746@gmail.com</a>
+                </div>
             </div>
-            <div class="textEmail">
-              <span>Email</span>
-              <a href="#">dm7659746@gmail.com</a>
-            </div>
-          </div>
         </section>
         <div class="download">
-          <a href="https://drive.google.com/file/d/1_5K05si_foBjbXyV6HJ3IIA7Mo65EPRF/view?usp=sharing" target="_blank">Download CV</a>
+            <a href="https://drive.google.com/file/d/1_5K05si_foBjbXyV6HJ3IIA7Mo65EPRF/view?usp=sharing"
+               target="_blank">Download CV</a>
         </div>
-      </section>
-      <header class="menu">
+    </section>
+    <header class="menu">
         <div class="menu-items">
-          <ul>
-            <li id="home">
-              <div class="icon-home"></div>
-              <span>Home</span>
-            </li>
-            <li id="project">
-              <div class="icon-project"></div>
-              <span>Projects</span>
-            </li>
-            <li id="education">
-              <div class="icon-education"></div>
-              <span>Education</span>
-            </li>
-            <li id="contact">
-              <div class="icon-contact"></div>
-              <span>Contact</span>
-            </li>
-          </ul>
+            <ul>
+                <li id="home">
+                    <div class="icon-home"></div>
+                    <span>Home</span>
+                </li>
+                <li id="project">
+                    <div class="icon-project"></div>
+                    <span>Projects</span>
+                </li>
+                <li id="education">
+                    <div class="icon-education"></div>
+                    <span>Education</span>
+                </li>
+                <li id="contact">
+                    <div class="icon-contact"></div>
+                    <span>Contact</span>
+                </li>
+            </ul>
         </div>
         <div class="icono-button">
-          <audio id="myAudio">
-            <source src="./Night.mp3" />
-          </audio>
-          <div id="playButton"></div>
-          <div id="pauseButton"></div>
+            <audio id="myAudio">
+                <source src="./Night.mp3"/>
+            </audio>
+            <div id="playButton"></div>
+            <div id="pauseButton"></div>
         </div>
-      </header>
-      <main class="container">
+    </header>
+    <main class="container">
         <div id="container-skills">
             <section class="presentation">
                 <h2>Hi, I'm <span id="element"></span></h2>
                 <p>
-                  I am a systems engineering student with expertise in web application development encompassing both Backend and Frontend aspects. I have hands-on experience with SQL databases and possess strong skills in the Linux operating system.
+                    I am a systems engineering student with expertise in web application development encompassing both
+                    Backend and Frontend aspects. I have hands-on experience with SQL databases and possess strong
+                    skills in the Linux operating system.
                 </p>
             </section>
             <section>
                 <h2>skills</h2>
                 <canvas width="400" height="400" id="myCanvas" style="max-width: 100%;">
-                  <ul id="tags">
-                    <li><a href="#" target="_blank">Python</a></li>
-                    <li><a href="#" target="_blank">JS</a></li>
-                    <li><a href="#" target="_blank">PHP</a></li>
-                    <li><a href="#" target="_blank">Vue</a></li>
-                    <li><a href="#" target="_blank">Node JS</a></li>
-                    <li><a href="#" target="_blank">Laravel</a></li>
-                    <li><a href="#" target="_blank">MongoDB</a></li>
-                    <li><a href="#" target="_blank">Data Science</a></li>
-                    <li><a href="#" target="_blank">MySQL</a></li>
-                    <li><a href="#" target="_blank">Postgress</a></li>
-                    <li><a href="#" target="_blank">Css</a></li>
-                    <li><a href="#" target="_blank">Python</a></li>
-                    <li><a href="#" target="_blank">Node JS</a></li>
-                    <li><a href="#" target="_blank">Git</a></li>
-                    <li><a href="#" target="_blank">Boostrap</a></li>
-                    <li><a href="#" target="_blank">SASS</a></li>
-                    <li><a href="#" target="_blank">AWS(S3,EC2)</a></li>
-                    <li><a href="#" target="_blank">Linux</a></li>
-                    <li><a href="#" target="_blank">Nginx</a></li>
-                    <li><a href="#" target="_blank">Docker</a></li>
-                    <li><a href="#" target="_blank">Firebase</a></li>
-                    <li><a href="#" target="_blank">Redis</a></li>
-                    <li><a href="#" target="_blank">Sockets</a></li>
-                  </ul>
+                    <ul id="tags">
+                        <li><a href="#" target="_blank">Python</a></li>
+                        <li><a href="#" target="_blank">JS</a></li>
+                        <li><a href="#" target="_blank">PHP</a></li>
+                        <li><a href="#" target="_blank">Vue</a></li>
+                        <li><a href="#" target="_blank">Node JS</a></li>
+                        <li><a href="#" target="_blank">Laravel</a></li>
+                        <li><a href="#" target="_blank">MongoDB</a></li>
+                        <li><a href="#" target="_blank">Data Science</a></li>
+                        <li><a href="#" target="_blank">MySQL</a></li>
+                        <li><a href="#" target="_blank">Postgress</a></li>
+                        <li><a href="#" target="_blank">Css</a></li>
+                        <li><a href="#" target="_blank">Git</a></li>
+                        <li><a href="#" target="_blank">Boostrap</a></li>
+                        <li><a href="#" target="_blank">SASS</a></li>
+                        <li><a href="#" target="_blank">AWS(S3,EC2)</a></li>
+                        <li><a href="#" target="_blank">Linux</a></li>
+                        <li><a href="#" target="_blank">Nginx</a></li>
+                        <li><a href="#" target="_blank">Docker</a></li>
+                        <li><a href="#" target="_blank">Firebase</a></li>
+                        <li><a href="#" target="_blank">Redis</a></li>
+                        <li><a href="#" target="_blank">Sockets</a></li>
+                    </ul>
                 </canvas>
             </section>
         </div>
-        <div id="container-contact" >
+        <div id="container-contact">
             <section class="form-contact">
                 <h2>Contact Me !</h2>
                 <p>If you are interested in my services send me a message and I will contact you</p>
@@ -119,8 +126,8 @@
                         <label>Email</label>
                     </div>
                     <div class="inputBox">
-                      <input type="text" required/>
-                      <label>Subject</label>
+                        <input type="text" required/>
+                        <label>Subject</label>
                     </div>
                     <div class="inputBox">
                         <input type="text" required/>
@@ -133,97 +140,96 @@
             </section>
         </div>
         <div id="container-education">
-          <div class="card-image">
-            <div class="box-image" style="--i:0">
-              <i></i>
-              <div class="content-image">
-                <img src="./img/Universidad_logo.png">
-                <h2>UNTELS</h2>
-                <a href="https://www.untels.edu.pe/" target="_blank">Hire me</a>
-              </div>
+            <div class="card-image">
+                <div class="box-image" style="--i:0">
+                    <i></i>
+                    <div class="content-image">
+                        <img src="./img/Universidad_logo.png">
+                        <h2>UNTELS</h2>
+                        <a href="https://www.untels.edu.pe/" target="_blank">Hire me</a>
+                    </div>
+                </div>
+                <div class="box-image" style="--i:1">
+                    <div class="content-image">
+                        <img src="./img/alura.jpg">
+                        <h2>Alura</h2>
+                        <a href="https://www.aluracursos.com/" target="_blank">Hire me</a>
+                    </div>
+                </div>
             </div>
-            <div class="box-image" style="--i:1">
-              <div class="content-image">
-                <img src="./img/alura.jpg">
-                <h2>Alura</h2>
-                <a href="https://www.aluracursos.com/" target="_blank">Hire me</a>
-              </div>
-            </div>
-          </div>
         </div>
         <div id="container-project">
-          <div id="home-magicwall" class="fake-magicwall">
-            <ul>
-                <!-- magic wall 1 -->
-                <li>
-                    <div class="magic-wall_item lazyload">
-                        <img src="img/enviamas-dashboard.PNG" alt="image">
-                        <div class="hover-content"></div>
-                        <a href="https://app.enviamas.pe/auth/signin" target="_blank" class="colorbox"></a>
-                    </div>
-                </li>
-                <!-- magic wall 3 -->
-                <li>
-                    <div class="magic-wall_item lazyload">
-                        <img src="img/teca.PNG" alt="image">
-                        <div class="hover-content"></div>
-                        <a href="https://pulse.teca.pe/login" target="_blank" class="colorbox"></a>
-                    </div>
-                </li>
-                <!-- magic wall 3 -->
-                <li>
-                    <div class="magic-wall_item lazyload">
-                        <img src="img/backus.PNG" alt="image">
-                        <div class="hover-content"></div>
-                        <a href="https://backus-semana-santa.web.app/" target="_blank" class="colorbox"></a>
-                    </div>
-                </li>
-                <!-- magic wall 4 -->
-                <li>
-                    <div class="magic-wall_item lazyload">
-                        <img src="img/ruc.PNG" alt="image">
-                        <div class="hover-content"></div>
-                        <a href="https://david986912425.github.io/negociosElectronicos/" target="_blank" class="colorbox"></a>
-                    </div>
-                </li>
-                <!-- magic wall 5 -->
-                <li>
-                  <div class="magic-wall_item lazyload">
-                      <img src="img/medical.PNG" alt="image">
-                      <div class="hover-content"></div>
-                      <a href="https://abeja-medica.netlify.app/auth" target="_blank" class="colorbox"></a>
-                  </div>
-              </li>
-              <!-- magic wall 6 -->
-              <li>
-                <div class="magic-wall_item lazyload">
-                    <img src="img/dimfer.PNG" alt="image">
-                    <div class="hover-content"></div>
-                    <a href="https://app.expertosenpuertas.com/login" target="_blank" class="colorbox"></a>
-                </div>
-            </li>
-            <!-- magic wall 7 -->
-            <li>
-              <div class="magic-wall_item lazyload">
-                  <img src="img/enviamas.PNG" alt="image">
-                  <div class="hover-content"></div>
-                  <a href="https://enviamas.pe/" target="_blank" class="colorbox"></a>
-              </div>
-          </li>
-            </ul>
+            <div id="home-magicwall" class="fake-magicwall">
+                <ul>
+                    <!-- magic wall 1 -->
+                    <li>
+                        <div class="magic-wall_item lazyload">
+                            <img src="img/enviamas-dashboard.PNG" alt="image">
+                            <div class="hover-content"></div>
+                            <a href="https://app.enviamas.pe/auth/signin" target="_blank" class="colorbox"></a>
+                        </div>
+                    </li>
+                    <!-- magic wall 3 -->
+                    <li>
+                        <div class="magic-wall_item lazyload">
+                            <img src="img/teca.PNG" alt="image">
+                            <div class="hover-content"></div>
+                            <a href="https://pulse.teca.pe/login" target="_blank" class="colorbox"></a>
+                        </div>
+                    </li>
+                    <!-- magic wall 3 -->
+                    <li>
+                        <div class="magic-wall_item lazyload">
+                            <img src="img/backus.PNG" alt="image">
+                            <div class="hover-content"></div>
+                            <a href="https://backus-semana-santa.web.app/" target="_blank" class="colorbox"></a>
+                        </div>
+                    </li>
+                    <!-- magic wall 4 -->
+                    <li>
+                        <div class="magic-wall_item lazyload">
+                            <img src="img/ruc.PNG" alt="image">
+                            <div class="hover-content"></div>
+                            <a href="https://david986912425.github.io/negociosElectronicos/" target="_blank"
+                               class="colorbox"></a>
+                        </div>
+                    </li>
+                    <!-- magic wall 5 -->
+                    <li>
+                        <div class="magic-wall_item lazyload">
+                            <img src="img/medical.PNG" alt="image">
+                            <div class="hover-content"></div>
+                            <a href="https://abeja-medica.netlify.app/auth" target="_blank" class="colorbox"></a>
+                        </div>
+                    </li>
+                    <!-- magic wall 6 -->
+                    <li>
+                        <div class="magic-wall_item lazyload">
+                            <img src="img/dimfer.PNG" alt="image">
+                            <div class="hover-content"></div>
+                            <a href="https://app.expertosenpuertas.com/login" target="_blank" class="colorbox"></a>
+                        </div>
+                    </li>
+                    <!-- magic wall 7 -->
+                    <li>
+                        <div class="magic-wall_item lazyload">
+                            <img src="img/enviamas.PNG" alt="image">
+                            <div class="hover-content"></div>
+                            <a href="https://enviamas.pe/" target="_blank" class="colorbox"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        </div>
-      </main>
-    </div>
+    </main>
+</div>
 
 
-    
-
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="./js/jquery.tagcanvas.js"></script>
-    <script src="./js/musica.js"></script>
-    <script src="main.js"></script>
-    <script src="./js/menu.js"></script>
-    <script src="./js/form.js"></script>
-  </body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="./js/jquery.tagcanvas.js"></script>
+<script src="./js/musica.js"></script>
+<script src="main.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./js/form.js"></script>
+</body>
 </html>

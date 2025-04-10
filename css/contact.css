@@ -1,0 +1,72 @@
+form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputBox {
+    position: relative;
+    width: 300px;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.inputBox input {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--background-ligth);
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    border-bottom: 2px solid var(--background-ligth);
+
+}
+
+.inputBox label {
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    color: var(--background-ligth);
+    text-transform: uppercase;
+}
+
+.inputBox label span {
+    position: relative;
+    display: inline-flex;
+    letter-spacing: 0.05em;
+    transition: 0.2s ease-in-out;
+}
+
+.inputBox input:focus ~ label span,
+.inputBox input:valid ~ label span {
+    color: var(--color-primary);
+    letter-spacing: 0.15em;
+    transform: translateY(-25px);
+}
+
+.inputBox input:focus,
+.inputBox input:valid {
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.inputBox input[type="submit"] {
+    background-color: var(--color-primary);
+    border: none;
+    padding: 15px;
+    border-radius: 0.75rem;
+    color: var(--background-ligth);
+    font-size: 1.15em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    width: 50%;
+}
+
+.inputBox input[type="submit"]:hover {
+    letter-spacing: 0.35em;
+}
